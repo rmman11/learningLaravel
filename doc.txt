@@ -22,6 +22,10 @@ cd example-app
 
 
 http://localhost/learningLaravel/admin/login -here part admin 
+in panel admin for login
+email:isaias55@hayes.com
+password:secret123
+
 http://localhost/learningLaravel/ -forntend 
 
 create on localhost project in laravel
