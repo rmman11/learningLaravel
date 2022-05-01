@@ -1,0 +1,25 @@
+Generate login / registration scaffolding in laravel
+php artisan ui bootstrap --auth
+php artisan ui vue --auth
+php artisan ui react --auth
+
+
+https://stackoverflow.com/questions/60921933/class-form-not-found-in-laravel-7
+https://www.allphptricks.com/laravel-9-bootstrap-5-auth-scaffolding/
+
+https://web-tuts.com/laravel-9-socialite-login-with-google-example/
+
+mdoul de creare a unui proiect:
+php artisan clear-compiled
+php artisan view:clear
+php artisan cache:clear
+
+
+
+composer create-project laravel/laravel example-app   create the project in laravel
+cd example-app
+ 
+php artisan serve
+
+
+https://laravel.com/docs/9.x/installation

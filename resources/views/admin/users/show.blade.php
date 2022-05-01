@@ -1,0 +1,57 @@
+@extends('admin.layouts.master')
+@section('pageTitle', 'Show Users')
+@section('content')
+
+<div class="card">
+    <div class="card-header">
+        {{ trans('global.show') }} {{ trans('cruds.user.title') }}
+    </div>
+
+    <div class="card-body">
+        <div class="mb-2">
+            <table class="table table-bordered table-striped">
+                <tbody>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.user.fields.id') }}
+                        </th>
+                        <td>
+                            {{ $user->id }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.user.fields.username') }}
+                        </th>
+                        <td>
+                            {{ $user->username }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.user.fields.email') }}
+                        </th>
+                        <td>
+                            {{ $user->email }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            {{ trans('cruds.user.fields.email_verified_at') }}
+                        </th>
+                        <td>
+                            {{ $user->email_verified_at }}
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <a style="margin-top:20px;" class="btn btn-default" href="{{ url()->previous() }}">
+                {{ trans('global.back_to_list') }}
+            </a>
+        </div>
+
+
+    </div>
+</div>
+@endsection
