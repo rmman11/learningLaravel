@@ -19,7 +19,15 @@ php artisan cache:clear
 composer create-project laravel/laravel example-app   create the project in laravel
 cd example-app
  
-php artisan serve
+
+
+http://localhost/learningLaravel/admin/login -here part admin 
+http://localhost/learningLaravel/ -forntend 
+
+create on localhost project in laravel
+I use the index.php file to start on localhost 
+
 
 
 https://laravel.com/docs/9.x/installation
+
